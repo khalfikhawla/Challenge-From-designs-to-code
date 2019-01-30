@@ -1,0 +1,57 @@
+/*main part */
+body * {
+  font-family: Arial;
+}
+main {
+  padding-top: 90px;
+  min-width: 1000px;
+}
+.first_part{
+  width: 100%;
+  padding: 50px 50px;
+}
+form.myform input[type=text] {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  width: 50%;
+  height: 20px;
+  background: #f1f1f1;
+}
+form.myform button {
+  width: 3%;
+  height: 20px;
+  background-image: url("images/finder.ico"); no-repeat scroll 0 0 transparent;
+  font-size: 10px;
+  border: 1px solid grey;
+}
+
+.secend_part{
+   width: 100%;
+   padding: 25px 25px;
+
+}
+.button_block .butt{
+  position:
+  text-decoration: none;
+display: inline-block;
+  background-color: #f1f1f1;
+  color: black;
+}
+.thirt_part{
+   width: 100%;
+   padding: 25px 25px;
+   position: static;
+}
+.first ul li,.second ul li,.thirt ul li{
+  display: inline-block;
+}
+.gray{
+  color: gray;
+  font-weight: bold;
+}
+.blue{
+  color: blue;
+  font-weight: bold;
+}
